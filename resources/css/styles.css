@@ -115,6 +115,13 @@ nav a:hover {
     -webkit-text-fill-color: transparent;
 }
 
+nav.mobile a:hover {
+    background: -webkit-linear-gradient(var(--dark), var(--dark));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* MAIN SECTION */
 main {
     margin-top: 3.3846rem;
@@ -834,6 +841,5 @@ main {
         font-size: 1.25rem;  
         padding: 0.625rem 0;
     }
-
 
 }
