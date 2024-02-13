@@ -295,9 +295,6 @@ main {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s linear;
-    transform: scale(1);
-
-    -webkit-transform: scale(1);
 }
 
 .box img:hover {
