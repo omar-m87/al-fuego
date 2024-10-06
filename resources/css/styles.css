@@ -24,11 +24,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1.2308rem;
+    font-size: 1.25rem;
 }
 
 p {
@@ -92,7 +92,7 @@ header {
     width: 100%;
     background-color: var(--background);
     border-bottom: 2px solid var(--dark);
-    padding: 0 0.3846rem;
+    padding: 0 0.4rem;
     position: fixed;
     top: 0;
     z-index: 100;
@@ -110,14 +110,14 @@ header .logo {
 header .logo img {
     display: flex;
     align-items: center;
-    height: 3.3077rem;
+    height: 3.3rem;
 }
 
 header .title1 , header .title2  {
     display: flex;
     align-items: center;
-    padding: 0.1923rem;
-    font-size: 1.8462rem;
+    padding: 0.2rem;
+    font-size: 1.9rem;
     font-family: "Lemon", serif;
     font-weight: 400;
     font-style: normal;
@@ -125,11 +125,11 @@ header .title1 , header .title2  {
 
 header .title1 a {
     color: var(--dark);
-    padding-left: 0.1923rem;
+    padding-left: 0.2rem;
 }
 
 header .title2 a {
-    padding: 0.1923rem 0;
+    padding: 0.2rem 0;
     color: var(--bright);
     background: -webkit-linear-gradient(var(--bright), var(--dark));
     background-clip: text;
@@ -143,8 +143,8 @@ nav.mobile {
 
 nav ul {
     display: flex;
-    margin-right: 0.7692rem;
-    padding-top: 0.1923rem;
+    margin-right: 0.75rem;
+    padding-top: 0.2rem;
 }
 
 header .right {
@@ -153,8 +153,8 @@ header .right {
 }
 
 nav a {
-    padding: 0.3846rem;
-    margin: 0 0.3846rem;
+    padding: 0.4rem;
+    margin: 0 0.4rem;
     color: var(--dark);
     font-weight: bold;
     text-transform: uppercase;
@@ -176,10 +176,10 @@ nav.mobile a:hover {
 
 /* MAIN SECTION */
 main {
-    margin-top: 3.3846rem;
+    margin-top: 3.4rem;
 }
 
-/* LANDING SECTION */
+/* HERO SECTION */
 .hero {
     display: flex;
     justify-content: center;
@@ -188,11 +188,11 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 3.3846rem);
+    height: calc(100vh - 3.4rem);
 }
 
 .hero .container {
-    padding: 0.7692rem;
+    padding: 0.75rem;
     border-radius: 15px;
     background: linear-gradient(var(--fire-orange), var(--bright));
     animation: bounceIn 3s ease-in 250ms both;
@@ -200,7 +200,7 @@ main {
 
 .hero h2 {
     color: var(--dark);
-    margin: 0.3846rem 3.8462rem;
+    margin: 0.4rem 3.9rem;
     font-family: "Damion", cursive;
     font-weight: 400;
     font-style: cursive;
@@ -211,7 +211,7 @@ main {
     font-family: "Lemon", serif;
     font-weight: 400;
     font-style: normal;
-    padding: 0.7692rem 3.8462rem;
+    padding: 0.75rem 3.9rem;
 }
 
 .hero h1 span {
@@ -222,18 +222,18 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.3077rem;
+    font-size: 2.3rem;
 }
 
 .hero button {
     width: 70%;
-    margin: 1.5385rem auto;
+    margin: 1.5rem auto;
     font-size: 0.75rem;
     font-family: "Lemon", serif;
     letter-spacing: 3px;
     background-color: var(--dark);
     color: var(--background);
-    padding: 0.3846rem 0;
+    padding: 0.4rem 0;
     line-height: 1.4;
     cursor: pointer;
 }
@@ -245,7 +245,7 @@ main {
 /* FOOD SECTION */
 #food {
     position: relative;
-    bottom: 3.3077rem;
+    bottom: 3.3rem;
 }
 
 .food {
@@ -258,7 +258,7 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 1.9231rem 0;
+    padding: 2rem 0;
     border-top: 2px solid var(--background);
 }
 
@@ -269,7 +269,7 @@ main {
 }
 
 .food h2 strong {
-    font-size: 2.3077rem;
+    font-size: 2.3rem;
     font-family: "Damion", cursive;
     font-weight: bolder;
     font-style: cursive;
@@ -367,22 +367,22 @@ main {
 /* LOCATIONS SECTION */
 #locations {
     position: relative;
-    bottom: 3.3077rem;
+    bottom: 3.3rem;
 }
 
 .locations {
     width: 100%;
-    padding-bottom: 0.7692rem;
+    padding-bottom: 0.75rem;
 }
 
 .locations h2 {
-    padding: 1.9231rem;
+    padding: 2rem;
     margin: 0 auto;
     text-transform: uppercase;
 }
 
 .locations h2 strong {
-    font-size: 2.3077rem;
+    font-size: 2.3rem;
     font-family: "Damion", cursive;
     font-weight: bolder;
     font-style: cursive;
@@ -390,11 +390,11 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-right: 0.7692rem;
+    padding-right: 0.75rem;
 }
 
 .locations h3 {
-    padding: 1.1539rem 0;
+    padding: 1.2rem 0;
     font-weight: bold;
     width: 150%;
     color: var(--background);
@@ -403,7 +403,7 @@ main {
 
 .locations p {
     font-weight: bold;
-    padding: 0.7692rem 0;
+    padding: 0.75rem 0;
     line-height: 1.5;
     width: 150%;
     color: var(--background);
@@ -422,8 +422,8 @@ main {
     width: 50%;
     overflow: hidden;
     border: 3px solid var(--dark);
-    padding: 0 3.0769rem;
-    margin: 0 0.3846rem;
+    padding: 0 3rem;
+    margin: 0 0.4rem;
     background-image: url("../images/locations-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -446,7 +446,7 @@ main {
 /* STAFF SECTION */
 #staff {
     position: relative;
-    bottom: 3.3077rem;
+    bottom: 3.3rem;
 }
 
 .staff {
@@ -454,21 +454,21 @@ main {
 }
 
 .staff h2 {
-    padding: 1.9231rem;
+    padding: 2rem;
     margin: 0 auto;
     text-transform: uppercase;
     color: var(--background);
 }
 
 .staff h2 strong {
-    font-size: 2.3077rem;
+    font-size: 2.3rem;
     font-family: "Damion", cursive;
     font-weight: bolder;
     font-style: cursive;
     color: var(--bright);
     opacity: 0.6;
     letter-spacing: 3px;
-    padding-right: 0.7692rem;
+    padding-right: 0.75rem;
 }
 
 .staff-bottom {
@@ -485,13 +485,13 @@ main {
 }
 
 .staff .image-container {
-    max-width: 11.5385rem;
+    max-width: 11.5rem;
     height: 70%;
     overflow: hidden;
 }
 
 .images .owner {
-    margin-top: 2.6923rem;
+    margin-top: 2.7rem;
 }
 
 .staff .image-container img {
@@ -504,7 +504,7 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 0.3846rem 0;
+    padding: 0.4rem 0;
     font-weight: bolder;
 }
 
@@ -513,8 +513,8 @@ main {
 }
 
 .staff-bottom p.small {
-    font-size: 0.7693rem;
-    padding: 0.1923rem 0;
+    font-size: 0.75rem;
+    padding: 0.2rem 0;
     font-weight: light;
     margin-bottom: 2.5rem;
 }
@@ -529,12 +529,12 @@ main {
 .reservations h2 {
     background-color: var(--background);
     color: var(--dark);
-    padding: 1.9231rem;
+    padding: 2rem;
     text-transform: uppercase;
 }
 
 .reservations h2 strong {
-    font-size: 2.3077rem;
+    font-size: 2.3rem;
     font-family: "Damion", cursive;
     font-weight: bolder;
     font-style: cursive;
@@ -543,7 +543,7 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
-    padding-right: 0.7692rem;
+    padding-right: 0.75rem;
 }
 
 .reservations .content {
@@ -552,23 +552,23 @@ main {
 }
 
 .reservations .content1 {
-    padding-top: 1.9231rem;
-    padding-bottom: 0.5769rem;
+    padding-top: 2rem;
+    padding-bottom: 0.6rem;
 }
 
 .reservations .content2 {
-    padding-top: 0.5769rem;
-    padding-bottom: 1.3077rem;
+    padding-top: 0.6rem;
+    padding-bottom: 1.3rem;
 }
 
 .reservations .content1 img {
-    height: 3.0769rem;
-    padding-left: 0.4231rem;
+    height: 3rem;
+    padding-left: 0.5rem;
     padding-right: 2px;
 }
 
 .reservations .content2 img {
-    height: 3.7692rem;
+    height: 3.75rem;
 }
 
 .reservations a {
@@ -578,17 +578,17 @@ main {
 
 .reservations h3 {
     color: var(--background);
-    padding: 0.1923rem;
-    font-size: 1.0769rem;
+    padding: 0.2rem;
+    font-size: 1rem;
 }
 
 .reservations h3.align {
-    padding-left: 0.5769rem;
+    padding-left: 0.6rem;
 }
 
 .copyright p.small {
-    font-size: 0.6154rem;
-    padding-bottom: 0.3846rem;
+    font-size: 0.6rem;
+    padding-bottom: 0.4rem;
     color: var(--background);
 }
 
@@ -623,7 +623,7 @@ main {
     }
 
     .reservations h2 {
-        padding: 1.9231rem 0;
+        padding: 2rem 0;
     }
 
     .reservations h2 strong {
@@ -631,7 +631,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
 
     html {
         font-size: 20px;
@@ -642,7 +642,7 @@ main {
     }    
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     
     header .title1 , header .title2 {
         display: none;
@@ -664,7 +664,7 @@ main {
 
     .locations-containers p {
         padding-top: 2px;
-        margin-bottom: 1.5385rem;
+        margin-bottom: 1.5rem;
     }
 
     .staff-bottom .below {
@@ -687,11 +687,11 @@ main {
     }
         
     .reservations .ny {
-        padding-top: 3.4615rem;
+        padding-top: 3.5rem;
     }
 
     .reservations .aruba {
-        padding-bottom: 3.4615rem;
+        padding-bottom: 3.5rem;
     }
 
     .reservations h3 {
@@ -703,10 +703,10 @@ main {
     }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 600px) {
 
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     nav.right {
@@ -727,7 +727,7 @@ main {
     }
 
     nav.mobile img {
-        height: 2.3702rem;
+        height: 2.4rem;
     }
 
     nav.mobile li.button {
@@ -736,21 +736,17 @@ main {
         border-radius: 25px;
         }
 
-    .landing .container h1 {
-        padding: 0.7692rem 1.5rem;
+    .hero .container h1 {
+        padding: 0.75rem 1.5rem;
     }
 
-    .landing h2 {
+    .hero h2 {
         font-size: 2rem;
     }
     
-    .landing h1, .landing h1 span {
-        font-size: 2.75rem;
+    .hero h1, .hero h1 span {
+        font-size: 2.5rem;
     }
-
-    .landing button {
-        font-size: 1rem;
-    }    
 
     .grid {
         grid-template: repeat(10, 1fr) / repeat(2, 1fr);
@@ -818,7 +814,7 @@ main {
 
     .reservations .content {
         display: block;
-        padding-top: 3.4615rem;
+        padding-top: 3.5rem;
     }
 
     .reservations .content2 img {
@@ -826,24 +822,24 @@ main {
     }
 
     .reservations .content1 img {
-        margin-top: 0.3846rem;
+        margin-top: 0.4rem;
     }
 
     .content1 .text {
-        margin-top: 0.625rem;
+        margin-top: 0.6rem;
     }
 
     .reservations .ny {
-        padding-top: 0.3846rem;
+        padding-top: 0.4rem;
     }
 
     .reservations .aruba {
-        padding-bottom: 3.4615rem;
+        padding-bottom: 3.5rem;
     }
 
     .reservations h3 {
-        font-size: 1.15rem;
-        padding: 0.3125rem 0;
+        font-size: 1.2rem;
+        padding: 0.3rem 0;
     }    
 
 
@@ -868,7 +864,7 @@ main {
     }
 
     .reservations .ny {
-        padding-top: 0.3846rem;
+        padding-top: 0.4rem;
     }
 
     .reservations .aruba {
@@ -881,7 +877,7 @@ main {
 
     .reservations h3 {
         font-size: 1.25rem;  
-        padding: 0.625rem 0;
+        padding: 0.6rem 0;
     }
 
 }
